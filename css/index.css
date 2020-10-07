@@ -1,0 +1,48 @@
+* {box-sizing: border-box;}
+
+body{
+	background-color: #f1f0ed;
+	margin: 0;
+}
+
+header{
+	max-width: 100vw;
+	margin: 0;
+	background-color: #c34;
+	color: #fff;
+}
+
+header div#container{
+	max-width: 60vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+header section#profile-details{
+	display: flex;
+	flex: wrap;
+}
+
+header ul{
+	list-style-type: none;
+	display: inline block;
+}
+
+header div img{
+	max-height: 400px;
+	max-width:	200px;
+	object-fit: cover;
+}
+
+main {
+	max-width: 60vw;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+footer{
+	background-color: #c34;
+	max-width: 100vw;
+	max-height: 200px;
+}
