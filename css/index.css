@@ -41,8 +41,8 @@ div#container::before{
 	z-index: 1;
 	background-color: #cc3344;
 	position: absolute;
-	top: 225px;
-	right: -26px;
+	top: 215px;
+	right: -20px;
 	border-radius: 80% 10%;
 }
 	
@@ -63,7 +63,6 @@ header div img{
 	max-width: 200px;
 	object-fit: cover;
 	border-radius: 0% 0% 47% 47%;
-};
 }
 
 main {
@@ -71,7 +70,7 @@ main {
 	margin: 0 auto;
 	background-color: #fff;
 	/* z-index: 2; */
-	padding: 30px 0 0;
+	padding: 5% 0 0;
 }
 
 footer{
