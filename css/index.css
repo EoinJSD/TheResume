@@ -3,6 +3,8 @@
 body{
 	background-color: #f1f0ed;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 header{
