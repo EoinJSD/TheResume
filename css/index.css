@@ -26,6 +26,20 @@ header section#profile-details{
 	flex: wrap;
 }
 
+header section#social-media{
+	max-width: 200px;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+header img#social{
+	max-height: 35px;
+	max-width: 35px;
+	object-fit: cover;
+	filter: grayscale(80%);
+}
+
 header ul{
 	list-style-type: none;
 	display: inline block;
